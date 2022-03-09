@@ -8,18 +8,139 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/iitbstyle.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+            width: 150px;
+            margin: 15px;
+            padding: 15px;
+
+        }
+
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #3e8e41;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            padding: 100px 152px;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(224, 224, 224, 0.2);
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 50px 2px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ffffff
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
+
     <div class="menu-bar">
-        <ul>
-            <li class="active"><a href="#">Info</a></li>
-            <li><a href="#">Courses & Fees</a></li>
-            <li><a href="#">Admission 2022</a></li>
-            <li><a href="#">Placement</a></li>
-            <li><a href="#">Ranking</a></li>
-        </ul>
+
+        <button id="active" class="dropbtn">Info</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#home">IIT Bombay is among the top 3 engineering colleges in India. The institute offers 139
+                courses in Engineering, Management, Pure Sciences, and Humanities. IIT Bombay courses include regular
+                degree programs such as UG, PG, and PhD programs in Engineering, Pure Sciences, and Management. The
+                institute also offers Massive Open Online Courses (MOOCs) through an online platform, IITBombayX. These
+                courses are imparted through 34 centres, 17 academic departments, and 3 schools.
+
+                Amongst the 139 courses offered, IIT Bombay BTech is the flagship program of the institute. Admission to
+                the course requires 1-2000 rank in the JEE Advanced exam. The total fee for the 4-year BTech program is
+                INR 9.18 Lacs. For the IIT Bombay BTech Admission 2022, NTA has announced JEE Main 2022 exam dates. The
+                exam is to be conducted in two sessions this year. First session of JEE Main 2022 will be conducted from
+                April 16-21, 2022. While the second session will be conducted from May 24-29, 2022. Candidates can fill
+                JEE Main 2022 application form for the April session till March 31. Also, the NTA has removed minimum
+                75% eligibility criteria for the JEE Main 2022 exam.
+
+                Another program that is much popular amongst the aspirants is the IIT Bombay MTech program. Admission to
+                the program is based on the GATE exam. IIT Bombay Cutoff for the MTech program is 380-550 scores in the
+                GATE exam. IIT Bombay fees for the 2-year program is INR 1.39 Lacs.</a>
+
+            <a href="#">
+                <div align="left">
+                    <h3>IIT Bombay Ranking</h3>
+                    <br>
+                    Being one of the leading Institutes in the country, IIT Mumbai has received rankings from many
+                    national
+                    and international platforms. Given below is the IIT Bombay ranking in world and India for the year
+                    2021
+                    & 2022:
+                    <br><br>
+
+                    &#x25AA; Ranked 177 by the QS World University Rankings 2022.<br><br>
+                    &#x25AA; Ranked 2 in the ARIIA rankings 2021.<br><br>
+                    &#x25AA; Ranked 3rd by the NIRF 2021 in the Engineering category.<br><br>
+                    &#x25AA; Ranked 3 for Overall by NIRF 2021<br><br>
+                    &#x25AA; Ranked 10 for MBA by NIRF 2021<br><br>
+                    &#x25AA; Ranked 37th in the top 250 institutes by the QS Asia Rankings 2021.<br><br>
+                    &#x25AA; Ranked 1 for Overall by The Week 2021.<br><br>
+                    &#x25AA; Ranked #151 - #175 in Engineering category internationally by Times Higher Education
+                    Ranking
+                    2020.<br><br>
+                    &#x25AA; Ranked 4, 11, and 3, in the Overall, MBA, and B.Tech category, respectively, by NIRF
+                    2020.<br><br>
+                    &#x25AA; India today and The Week ranked IIT Bombay at 2 for its B.Tech program in its 2020
+                    rankings.<br><br>
+                    &#x25AA; Outlook ranked IIT Bombay at 3 for its B.Tech program in its 2020 rankings.<br><br>
+                    &#x25AA; Times Higher Education (THE) ranked IIT Bombay 401 for Overall, 151 for B.Tech, 401 for
+                    Science,
+                    and 301
+                    for Life Science in the 2020 rankings.<br><br>
+            </a>
+        </div>
     </div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="active" class="dropbtn">Courses & Fees</button>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="active" class="dropbtn">Admission</button>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button id="active" class="dropbtn">Placement</button>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="active" class="dropbtn">Ranking</button>
+
+
+    </div>
+
+    <script>
+        // Get the button, and when the user clicks on it, execute myFunction
+        document.getElementById("active").onclick = function () { myFunction() };
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+    </script>
 </body>
 
 </html>

@@ -13,7 +13,7 @@ body {
 .menu-bar ul {
   display: inline-flex;
   list-style: none;
-  color: rgb(255, 255, 255);
+  color: rgb(85, 68, 68);
 }
 .menu-bar ul li {
   width: 145px;

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iitbstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+            width: 150px;
+            margin: 15px;
+            padding: 15px;
+
+        }
+
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #3e8e41;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            padding: 100px 152px;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(224, 224, 224, 0.2);
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 50px 2px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ffffff
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu-bar">
+
+        <button id="active" class="dropbtn">Info</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV) is a state university situated in Bhopal,
+                India. The university is recognized by the UGC and accredited with an "A" Grade by the NAAC. RGPV is
+                formerly known as the State Technological University of Madhya Pradesh with a campus sprawling over
+                247-acres. At present, the university is offering UG, PG, Diploma/Polytechnic, and Research level across
+                400+ RGPV affiliated colleges and institutions. It has 5 UTD's, 200 affiliated Engineering colleges, 98
+                pharmacy colleges, 95 MCA colleges, 4 Architecture Colleges, and 85 polytechnic institutions.
+
+                B.E/BTech is the flagship program of the RGPV Bhopal. Admissions to the same are offered on the basis of
+                JEE Main scores followed by counseling conducted by the university. RGPV cutoff for the B.E/B.Tech
+                program ranges from 32781-738471 marks for the general category candidates. Apart from the B.E program,
+                the university also offers various other popular programs such as B.Arch, B.Pharm, MBA, MCA, M.Pharm,
+                M.E, and dual degrees, etc. Admission to these programs is based on both national-level entrance scores
+                and merit lists. Check RGPV Admission process
+
+                Over the years, RGPV has proven itself a perfect example of modernization by offering several UG and PG
+                programs in both full-time and online mode across a variety of specialized fields such as Management,
+                Forensic Science, Fashion, Space Sciences, nanotechnology, etc., and many more. These online programs
+                can be accessed by anyone with the presence of extensive internet facilities anywhere in the world. In
+                addition to this, some of the affiliated colleges of RGPV have also been permitted to impart
+                post-graduate teaching in the new domains of knowledge.
+
+                RGPV offers great placement and internship opportunities to its students. Every year more than 80% of
+                the graduates are placed in top-notch companies with impressive salary packages. Some of the top
+                recruiters are BYJUS, Quikr, OLX, Wipro, TCS, Accenture, Tech Mahindra, Infosys, MuSigma, etc. RGPV has
+                recently signed several MoUs and entered into collaborations with a number of prestigious institutions
+                and organizations such as ICAR-IISS, NASSCOM, MPBOU, Dauto Engineering Pvt. Ltd., etc., to promote
+                student training and offer industry oriented certification programs.</a>
+
+            <a href="#">
+                <div align="left">
+                    <h3> Why RGPV?</h3>
+                    <br>
+
+                    RGPV enjoys a prestigious position in all the colleges of central India. With the well experienced &
+                    qualified faculty, students can prosper in every aspect of college life. RGPV has left no stone
+                    unturned in making the students self-reliant & confident. It has paved the way for a bright and
+                    successful future ahead for its candidates.
+
+                    The fee structure of all the UG and PG programs is also minimalistic and affordable for most of the
+                    students. RGPV has also introduced a 2-year MBA program open for all graduates. It aims to cater to
+                    the needs of every student who aspires to work in the corporate sector one day. RGPV has also been
+                    in talks for making vigorous arrangements for the upcoming placement session wherein many vital
+                    companies take initiatives for providing employment opportunities to the candidates. Tata
+                    Consultancy Services (TCS) being one of the major recruiters hiring maximum possible candidates from
+                    RGPV.
+
+                    Many sports and cultural activities are also conducted round the year in RGPV. The students get a
+                    massive chance to improve their skills and abilities in every domain. The annual tech fest
+                    ‘Synchrotons’ is one of the biggest fests organized in Central India. Colleges from all over India
+                    participate in the events conducted in the fest. Students get to explore their hidden talents while
+                    learning along the way.
+
+                    Overall, RGPV is a combined pack for everything relating to a student's successful college life.
+                    From the best learning and education relating opportunities to extensive extra-curricular activities
+                    throughout the year, RGPV does it all.
+
+                    <br><br>
+            </a>
+        </div>
+    </div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="active" class="dropbtn">Courses & Fees</button>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="active" class="dropbtn">Admission</button>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button id="active" class="dropbtn">Placement</button>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button id="active" class="dropbtn">Ranking</button>
+
+
+    </div>
+
+    <script>
+        // Get the button, and when the user clicks on it, execute myFunction
+        document.getElementById("active").onclick = function () { myFunction() };
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
