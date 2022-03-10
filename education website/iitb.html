@@ -56,6 +56,14 @@
         .show {
             display: block;
         }
+
+        .showR {
+            display: block;
+        }
+
+        .showC {
+            display: block;
+        }
     </style>
 </head>
 
@@ -65,7 +73,7 @@
 
         <button id="active" class="dropbtn">Info</button>
         <div id="myDropdown" class="dropdown-content">
-            <a href="#home">IIT Bombay is among the top 3 engineering colleges in India. The institute offers 139
+            <a href="#">IIT Bombay is among the top 3 engineering colleges in India. The institute offers 139
                 courses in Engineering, Management, Pure Sciences, and Humanities. IIT Bombay courses include regular
                 degree programs such as UG, PG, and PhD programs in Engineering, Pure Sciences, and Management. The
                 institute also offers Massive Open Online Courses (MOOCs) through an online platform, IITBombayX. These
@@ -93,7 +101,6 @@
                     2021
                     & 2022:
                     <br><br>
-
                     &#x25AA; Ranked 177 by the QS World University Rankings 2022.<br><br>
                     &#x25AA; Ranked 2 in the ARIIA rankings 2021.<br><br>
                     &#x25AA; Ranked 3rd by the NIRF 2021 in the Engineering category.<br><br>
@@ -116,23 +123,104 @@
             </a>
         </div>
     </div>
-
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <button id="active" class="dropbtn">Courses & Fees</button>
-
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <button id="active" class="dropbtn">Admission</button>
-
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <button id="active" class="dropbtn">Placement</button>
 
+
+
+
+
+
+
+
+    <button id="activeC" class="dropbtn">Courses & Fees</button>
+    <div id="myDropdownC" class="dropdown-content">
+    </div>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <button id="active" class="dropbtn">Ranking</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <button id="activeA" class="dropbtn">Admission</button>
+    <!--  <div id="myDropdownA" class="dropdown-content"> -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button id="activeP" class="dropbtn">Placement</button>
+    <!--  <div id="myDropdownP" class="dropdown-content"> -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button id="activeR" class="dropbtn">Ranking</button>
+    <div id="myDropdownR" class="dropdown-content">
+        <!--<button id="active" class="dropbtn">Ranking</button> -->
+        <a href="#">
+            <div align="left">
+                <h3>IIT Bombay Ranking</h3>
+                <br>
+                Being one of the leading Institutes in the country, IIT Mumbai has received rankings
+                from many
+                national
+                and international platforms. Given below is the IIT Bombay ranking in world and India
+                for the
+                year
+                2021
+                & 2022:
+                <br><br>
+
+                &#x25AA; Ranked 177 by the QS World University Rankings 2022.<br><br>
+                &#x25AA; Ranked 2 in the ARIIA rankings 2021.<br><br>
+                &#x25AA; Ranked 3rd by the NIRF 2021 in the Engineering category.<br><br>
+                &#x25AA; Ranked 3 for Overall by NIRF 2021<br><br>
+                &#x25AA; Ranked 10 for MBA by NIRF 2021<br><br>
+                &#x25AA; Ranked 37th in the top 250 institutes by the QS Asia Rankings 2021.<br><br>
+                &#x25AA; Ranked 1 for Overall by The Week 2021.<br><br>
+                &#x25AA; Ranked #151 - #175 in Engineering category internationally by Times Higher
+                Education
+                Ranking
+                2020.<br><br>
+                &#x25AA; Ranked 4, 11, and 3, in the Overall, MBA, and B.Tech category, respectively, by
+                NIRF
+                2020.<br><br>
+                &#x25AA; India today and The Week ranked IIT Bombay at 2 for its B.Tech program in its
+                2020 rankings.<br><br>
+                &#x25AA; Outlook ranked IIT Bombay at 3 for its B.Tech program in its 2020
+                rankings.<br><br>
+                &#x25AA; Times Higher Education (THE) ranked IIT Bombay 401 for Overall, 151 for B.Tech,
+                401 for Science, and 301 for Life Science in the 2020 rankings.<br><br>
+        </a>
+    </div>
+
+
+
 
 
     </div>
-
     <script>
         // Get the button, and when the user clicks on it, execute myFunction
         document.getElementById("active").onclick = function () { myFunction() };
@@ -140,6 +228,18 @@
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
+
+        // document.getElementById("activeC").onclick = function () { myFunctionc() };
+
+        // function myFunctionc() {
+        //     document.getElementById("myDropdownC").classList.toggle("showC");
+        // }
+
+        document.getElementById("activeR").onclick = function () { myFunctionn() };
+
+        function myFunctionn() {
+            document.getElementById("myDropdownR").classList.toggle("showR");
+        } 
     </script>
 </body>
 
