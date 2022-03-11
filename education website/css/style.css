@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
 * {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
-  -webkit-transition: all .2s linear;
-  transition: all .2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 img {
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 html {
@@ -100,14 +100,14 @@ section {
   right: 0;
   background: #fff;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 1000;
 }
 
@@ -139,7 +139,7 @@ section {
 
 .header .navbar #close-navbar:hover {
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .header .navbar a {
@@ -179,12 +179,12 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
   gap: 2rem;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 100%;
   z-index: 1200;
   padding: 2rem;
@@ -194,7 +194,7 @@ section {
 .account-form.active {
   right: 0;
   -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
-          box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
 }
 
 .account-form #close-form {
@@ -208,7 +208,7 @@ section {
 
 .account-form #close-form:hover {
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .account-form form {
@@ -225,7 +225,7 @@ section {
   font-size: 2.5rem;
   text-transform: capitalize;
   color: #444;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   text-transform: uppercase;
 }
 
@@ -234,7 +234,7 @@ section {
   padding: 1.2rem 1.4rem;
   border: 0.1rem solid #0eb582;
   font-size: 1.6rem;
-  margin: .7rem 0;
+  margin: 0.7rem 0;
 }
 
 .account-form form .flex {
@@ -243,9 +243,9 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: .5rem;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .account-form form .flex label {
@@ -270,7 +270,7 @@ section {
 }
 
 .account-form .buttons .btn {
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 
 .account-form .buttons .btn.active {
@@ -287,8 +287,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 60rem;
   background-size: cover !important;
   background-position: center !important;
@@ -320,8 +320,8 @@ section {
 .subjects .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  -ms-grid-columns: (minmax(16rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 2rem;
 }
 
@@ -347,14 +347,14 @@ section {
 
 .subjects .box-container .box img {
   height: 10rem;
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .subjects .box-container .box h3 {
   font-size: 1.7rem;
   text-transform: capitalize;
   color: #444;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .subjects .box-container .box p {
@@ -422,17 +422,17 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 
 .about .image {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
 }
 
 .about .image img {
@@ -441,8 +441,8 @@ section {
 
 .about .content {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
 }
 
 .about .content .about-title {
@@ -462,8 +462,8 @@ section {
   margin-top: 1rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  -ms-grid-columns: (minmax(16rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 2rem;
 }
 
@@ -476,11 +476,11 @@ section {
 
 .about .content .icons-container .icons img {
   height: 5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .about .content .icons-container .icons h3 {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   font-size: 3rem;
   text-transform: capitalize;
   color: #444;
@@ -539,11 +539,11 @@ section {
   display: flex;
   padding-top: 1rem;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .teachers .slide .content h3 {
@@ -574,12 +574,12 @@ section {
 }
 
 .reviews .slide p::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -1.2rem;
   left: 50%;
   -webkit-transform: translateX(-50%) rotate(45deg);
-          transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
   background: #f0fdfa;
   border-bottom: 0.1rem solid #0eb582;
   border-right: 0.1rem solid #0eb582;
@@ -597,7 +597,7 @@ section {
   font-size: 2.2rem;
   text-transform: capitalize;
   color: #444;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .reviews .slide .stars {
@@ -608,14 +608,14 @@ section {
 .courses .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  -ms-grid-columns: (minmax(30rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
 .courses .box-container .box:hover .image img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .courses .box-container .box.hide {
@@ -632,7 +632,7 @@ section {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .courses .box-container .box .image h3 {
@@ -642,7 +642,7 @@ section {
   position: absolute;
   top: 1rem;
   left: 1rem;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   background: #fff;
 }
 
@@ -670,11 +670,11 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 2rem;
   padding-top: 2rem;
   border-top: 0.1rem solid #0eb582;
@@ -688,7 +688,7 @@ section {
 
 .courses .box-container .box .content .icons span i {
   color: #0eb582;
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .courses .load-more {
@@ -700,8 +700,8 @@ section {
   margin-bottom: 3rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
 }
 
@@ -718,7 +718,7 @@ section {
   line-height: 6rem;
   font-size: 2rem;
   border-radius: 50%;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   color: #fff;
   background: #0eb582;
 }
@@ -727,7 +727,7 @@ section {
   font-size: 2rem;
   text-transform: capitalize;
   color: #444;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .contact .icons-container .icons p {
@@ -741,17 +741,17 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
 .contact .row .image {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
 }
 
 .contact .row .image img {
@@ -760,8 +760,8 @@ section {
 
 .contact .row form {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
   border: 0.1rem solid #0eb582;
   padding: 2rem;
 }
@@ -778,7 +778,7 @@ section {
   padding: 1.2rem 1.4rem;
   border: 0.1rem solid #0eb582;
   font-size: 1.6rem;
-  margin: .7rem 0;
+  margin: 0.7rem 0;
 }
 
 .contact .row form .box:focus {
@@ -812,17 +812,17 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 2rem;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .faq .accordion-container .accordion {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
   border: 0.1rem solid #0eb582;
 }
 
@@ -837,7 +837,7 @@ section {
 .faq .accordion-container .accordion.active .accordion-heading i {
   color: #fff;
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .faq .accordion-container .accordion.active .accordion-content {
@@ -849,11 +849,11 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   gap: 1rem;
   cursor: pointer;
   padding: 1.5rem;
@@ -895,8 +895,8 @@ section {
 .footer .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
 }
 
@@ -922,7 +922,7 @@ section {
   font-size: 1.7rem;
   background-color: #0eb582;
   color: #fff;
-  margin-right: .3rem;
+  margin-right: 0.3rem;
   text-align: center;
 }
 
@@ -934,7 +934,7 @@ section {
   font-size: 1.7rem;
   line-height: 2;
   color: #777;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   display: block;
 }
 
@@ -1009,11 +1009,11 @@ section {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     z-index: 1200;
   }
   .header .navbar #close-navbar {
@@ -1021,7 +1021,7 @@ section {
   }
   .header .navbar.active {
     -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
-            box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
     right: 0;
   }
   .header .navbar a {
