@@ -1065,3 +1065,146 @@ section {
   right: 10px;
   bottom: 10px;
 }
+
+/*Kishlay Compare Page Start*/
+
+.squareLeft {
+  height: 51px;
+  width: 120px;
+  background: #a1e1a3;
+  border-radius: 10px 0px 0px 10px;
+}
+.rhombus {
+  height: 51px;
+  width: 55px;
+  margin: 8px 0 0 0;
+  background: #0eb582;
+  transform: skew(0deg, 16deg);
+}
+.squareRight {
+  height: 51px;
+  width: 400px;
+  margin: 16px 0 0 0;
+  background: #a1e1a3;
+}
+.triangleRight {
+  width: 0;
+  height: 0;
+  margin-top: 16px;
+  border-top: 25px solid transparent;
+  border-left: 35px solid #a1e1a3;
+  border-bottom: 25px solid transparent;
+}
+
+.compare {
+  height: 30px;
+  width: 114px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 0;
+  padding: 3px 0 0 0;
+}
+.comptext {
+  color: #444;
+}
+.compare:hover .comptext {
+  color: white !important;
+}
+.compare:hover .ri-add-box-line {
+  color: white !important;
+}
+
+.compareWrapper {
+  width: 100%;
+  margin: 0 auto 0 15px;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.seprator {
+  width: 10px;
+}
+
+.compareText {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  position: absolute;
+  margin-top: 10px;
+  color: white;
+  margin-left: 45px;
+}
+
+.punchHole {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.punchHole .icon {
+  top: 4px;
+  left: 6px;
+  font-size: 15px;
+  color: #0eb582;
+  position: relative;
+}
+
+.dropCompWrapper {
+  display: flex;
+  padding: 0px 0px 0px 199px;
+  width: 1401px;
+}
+
+.dropComp {
+  height: 400px;
+  width: 384px;
+  border: 1px #0eb582 solid;
+  background-color: #5c7262;
+}
+
+.imgComp {
+  height: 65%;
+  width: 100%;
+}
+
+.sepratorComp {
+  width: 25px;
+}
+
+.selector {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin: 5px 0;
+  padding: 0 6px;
+  border-radius: 15px;
+  background-color: #a1e1a3;
+}
+
+.sltrDropdown {
+  width: 60%;
+  border-radius: 20px 10px 56px 0;
+}
+
+.sltrDropdown option {
+  height: 40px;
+  background-color: red;
+}
+
+.descriptionComp {
+  width: 40%;
+  padding: 0px 0 0 10px;
+  color: #5c7262;
+  font-size: 17px;
+  line-height: 40px;
+}
+
+/*.selectWrapper{
+  padding: 0px 0px 0px 145px;
+  background-color: #5c7262;
+}*/
+
+/*Kishlay Compare Page End*/
+
+/*# sourceMappingURL=style.css.map */
